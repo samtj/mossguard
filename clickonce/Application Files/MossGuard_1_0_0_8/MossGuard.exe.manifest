@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MossGuard.exe" version="1.0.0.8" publicKeyToken="ee19fb2c4ece003e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MossGuard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MossGuard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="De.TorstenMandelkow.MetroChart.dll" size="118784">
+      <assemblyIdentity name="De.TorstenMandelkow.MetroChart" version="1.0.0.0" publicKeyToken="D5B8D1BBC99C4A2A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DNwDbvXFbxJqPXkZEXF1Kd/fWJczRUobVlgQGWxUUFo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Elasticsearch.Net.dll" size="556032">
+      <assemblyIdentity name="Elasticsearch.Net" version="1.0.0.0" publicKeyToken="96C599BBE3E70F5D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wIvONaHTwTc53I5ux8LjdYcsISby1jtiBV+O74/W9H4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="134656">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XH0MTgrjsVol/leRhjvTnBR0ve6f+u6XugfywnkOGxM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MahApps.Metro.dll" size="849920">
+      <assemblyIdentity name="MahApps.Metro" version="1.1.2.0" publicKeyToken="F4FB5A3C4D1E5B4F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r5R2dAFxVrruWw/REoZQ811Lpi4VZdh9iu/gIyH0I8U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MossGuard.exe" size="1286672">
+      <assemblyIdentity name="MossGuard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WOd6nO0x3vb0F2xCChCdUBHwqKOLZThB/mrQAmJdkh4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nest.dll" size="2349056">
+      <assemblyIdentity name="Nest" version="1.0.0.0" publicKeyToken="96C599BBE3E70F5D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xqVb5+q21zKauAZ+YDljXcKkRhh+7v8fRcZSK8S7q68=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="520192">
+      <assemblyIdentity name="Newtonsoft.Json" version="7.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nsosXtGHteExnDWaq/g4KZITHv4YVLiZwjqT/iJ0luM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Interactivity.dll" size="55904">
+      <assemblyIdentity name="System.Windows.Interactivity" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>k/vFnkiAr8nxNsOsCXatp/P6p8rO3OXIJLM3y8qdLr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MossGuard.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AMERICAS\Samuel_Tjokrosoesilo" issuerKeyHash="f1272f2da42f16f653909c5259320fb3e33a9c12" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FYYxogJPISp8FGRXx22aS1VOj0Qkux8+CSx7MBSjQ5Q=</DigestValue></Reference></SignedInfo><SignatureValue>TWsqGW93Ii7OwMNF+yQx0wFjqcYcIjtYfkW2QI2BQQoO9489moqQVX+0tGHC4Lbepu6lSqYiom6Ttn7LxXYr/SeE3O+J97pIgO0vl9EKc4FRePnGYkoCYRJwJSmSo3FhusEWevH8hoGjUAr2ZLRJpOWCXcDdDKva6uuxv7h0B3U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mvk8rZ+mbMdaiUZnko8VteZ/iK0jzUICctg2x425aeWETQZIs2Ca3EMMyk12ISR7ZdPXOjgtj9SulvX00knpKG9m3kfN0GE5aobHjEPdUyZjdRKHjAOrB3uTh8OH2/G8DmmbBhEMKLuBjrvufkibnpGmv1DNWENpNNsQI6/+QCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9443a314307b2c093e1fbb24448f4e554b9a6dc75764147c2a214f02a2318615" Description="" Url=""><as:assemblyIdentity name="MossGuard.exe" version="1.0.0.8" publicKeyToken="ee19fb2c4ece003e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AMERICAS\Samuel_Tjokrosoesilo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>o/yh504W03lnoEH5fJxEvquaNkOnt+Ja3IRwMNRuJzo=</DigestValue></Reference></SignedInfo><SignatureValue>Y51ksfaKkg6UI8g3TzsWXHC/2GUMr+JneHWOAnzvXZElCJJYaHA5S7inTFhiDMNsV6EYs8drWwluzlUevvvvn4TW5T2npAcr94SfB4axIgY2LGR9CYgD1evJu8I3BR3vAf9U4mQUbYodhqpSgFDp5Uge91CNR8lm7AE47ehf9xo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mvk8rZ+mbMdaiUZnko8VteZ/iK0jzUICctg2x425aeWETQZIs2Ca3EMMyk12ISR7ZdPXOjgtj9SulvX00knpKG9m3kfN0GE5aobHjEPdUyZjdRKHjAOrB3uTh8OH2/G8DmmbBhEMKLuBjrvufkibnpGmv1DNWENpNNsQI6/+QCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQGzwsAXCcOadIQH6qBQUk8jANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAQQBNAEUAUgBJAEMAQQBTAFwAUwBhAG0AdQBlAGwAXwBUAGoAbwBrAHIAbwBzAG8AZQBzAGkAbABvMB4XDTE2MDIwMTE2MjYxOFoXDTE3MDEzMTIyMjYxOFowRTFDMEEGA1UEAx46AEEATQBFAFIASQBDAEEAUwBcAFMAYQBtAHUAZQBsAF8AVABqAG8AawByAG8AcwBvAGUAcwBpAGwAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmvk8rZ+mbMdaiUZnko8VteZ/iK0jzUICctg2x425aeWETQZIs2Ca3EMMyk12ISR7ZdPXOjgtj9SulvX00knpKG9m3kfN0GE5aobHjEPdUyZjdRKHjAOrB3uTh8OH2/G8DmmbBhEMKLuBjrvufkibnpGmv1DNWENpNNsQI6/+QCUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4dNWWMfqGvUqIfMxJK7RVLlQg1gUWBhWD1TKdmSZEE2E++ZzLPclpem06LjQEyW+/0O5tHn5Aavd3trijOORsyoSO4qbkVOOZ+S7vykYYT6/MofxZpVPU6qMdeE4KcxQuhiH9Hr3GBfiBGF+4NdDjakHlg9zGJVt/8uEStXsPkw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
